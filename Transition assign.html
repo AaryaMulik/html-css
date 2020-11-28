@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		p{
+          line-height: 25pt;
+          letter-spacing: 2px;
+          text-align: left;
+          font-size: 20px;
+          word-wrap: break-word;
+          transform-origin: 20% 40%;
+          color: white;
+          margin-top: 100px;
+          margin-bottom:100px;
+          margin-right:100px;
+          margin-left: 100px;
+          transition: all .2s ease-in-out; 
+          
+          
+		}
+		#h1{
+			animation:example 3s infinite;
+			font-size: 30px;
+		}
+
+		@keyframes example{
+			from{color:black;}
+			to{color:white;}
+		}
+		#rotate{
+			position: absolute;
+            top: 70px;
+            right: 20px;
+            transform:rotate(40deg);
+            
+		}
+		.grow:hover {
+       transform: scale(1.5); 
+   }
+   
+		#background{
+        		background-image: url('trick or treat.jpg');
+        		background-repeat: no-repeat;
+        		background-position: absolute;
+        		background-attachment: fixed;
+                background-size: cover;
+        		
+        	}
+	</style>
+</head>
+<body>
+       <div id="background">
+       <div id="h1"style="text-align: center; color: white;"><h1>HALLOWEEN FUN</h1></div>
+       <div class="grow"><p>  Halloween is a holiday celebrated each year on October 31 , and 
+        	Halloween 2020 occurs on Saturday. The tradition 
+        	originated <br>with the ancient Celtic festival of Samhain, when people
+            would light bonfires , andd wear costumes to ward off ghosts. In the<br>
+            eight century, Pope Oregory designated November I as a time to 
+            humor all snists. Soon, All Saints Day incorporated some of the<br>
+            traditons of  Samhain. The evning before was known as All Hallows 
+            Eve, and later Halloween. Over time, Halloween evolved into<br> day of 
+            activities like trick-or-treating, carving jack-o-lanterns, festive
+            gatherings, donning costumes and cating treats.</p></div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <div id="rotate"style="font-size: 40px; color: white;">Have Fun</div>
+       </div>
+</body>
+</html>
